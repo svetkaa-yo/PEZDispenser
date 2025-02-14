@@ -1,4 +1,4 @@
-## PEZ Dispencer 
+## PEZ Dispenser 
 <img src="https://github.com/svetkaa-yo/PEZDispenser/blob/master/PEZ%20picture.png" alt="PEZDispencer" width="400" height="250">
 
 ### Do you remember these candies? 🤩
@@ -21,7 +21,7 @@ MainApp.java - application entry point
 <li>Prints current candy amount</li>
 </ul>
 
-*  It is impossible to get more candies than are actually available, as well as overloading the Dispencer.
+*  It is impossible to get more candies than are actually available, as well as overloading the Dispenser.
 
 ### How to start? ⭐
 1. Build app using maven: mvn clean install
