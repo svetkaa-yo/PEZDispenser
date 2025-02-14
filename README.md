@@ -1,7 +1,7 @@
 ## PEZ Dispencer 
 <img src="https://github.com/svetkaa-yo/PEZDispenser/blob/master/PEZ%20picture.png" alt="PEZDispencer" width="400" height="250">
 
-### Do you remember this candies? 🤩
+### Do you remember these candies? 🤩
 
 A PEZ dispenser is a small, colorful toy that dispenses PEZ candy in a fun and interactive way. PEZ dispensers have become iconic collectibles, often designed in the shape of popular characters, animals, or figures. By tilting its head backward a candy releases from internal mechanism.
 
