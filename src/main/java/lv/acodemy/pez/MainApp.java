@@ -7,8 +7,8 @@ public class MainApp {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        //новый Java объект-класс, сканер, который позволяет
-        // считывать ввод пользователя,  Scanner class for handling input
+        //new Java object-class - scanner
+        // Scanner class for "reading" input
         //System.in — the “standard” input stream:
         //Scanner scanner = new Scanner(System.in);
 
@@ -39,12 +39,14 @@ public class MainApp {
 
             System.out.println("Please enter your next action number:");
             int input1 = scanner.nextInt();
+
             int candyAmount = 12;
+
             switch (input1) {
                 case 1:
                     test.putOne();
-                    //вызов метода из первого класса
-                    //перенаправляет к меню
+                    //method from another class
+                    //break redirects to menu
                     break;
                 case 2:
                     System.out.println("How many candies do you want to put?");
@@ -66,7 +68,7 @@ public class MainApp {
                     break;
                 case 6:
                     System.out.println("Goodbye!");
-                    return; //завершить main и возвращает результат, но т.к. void, он пустой
+                    return; //end main method and returns the result, but since the method is void, it is empty
 
             }
         }

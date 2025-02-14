@@ -1,7 +1,7 @@
 package lv.acodemy.pez;
 
 public class PEZDispenser {
-    private final String name;  //private, чтобы его нельзя было менять
+    private final String name;  
     private final String model;
     private final String color;
     public Integer candyAmount;
@@ -24,7 +24,7 @@ public class PEZDispenser {
     }
 
     public Integer checkAndChangeAmount(int changeAmount) {
-        // ()-в скобки будет подставляться цифра из терминала
+        // ()-the number from the terminal will be inserted into brackets
         var newAmount = this.candyAmount + changeAmount;
         if (newAmount > 12) {
             System.out.println("It is not possible to put more than 12 candies.");
@@ -50,12 +50,12 @@ public class PEZDispenser {
     public Integer putMore(int howMuch) {
         return checkAndChangeAmount(howMuch);
     }
-    //тут должен был быть цикл, увеличивающий количество по 1 конфете
+   
 
     public Integer getMore(int howMuch) {
         return checkAndChangeAmount(-howMuch);
     }
-    //тут должен был быть цикл, уменьшающий количество по 1 конфете
+    
 
     public void starDisplay() {
         System.out.println("Current candy amount is: "+ candyAmount);
