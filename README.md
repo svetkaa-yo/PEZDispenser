@@ -6,7 +6,7 @@
 A PEZ dispenser is a small, colorful toy that dispenses PEZ candy in a fun and interactive way. PEZ dispensers have become iconic collectibles, often designed in the shape of popular characters, animals, or figures. By tilting its head backward a candy releases from internal mechanism.
 
 ### My simple CLI Application 
-<a href="https://github.com/svetkaa-yo/PEZDispenser/tree/master/src/main/java/lv/acodemy/pez"> CLick here to open </a>
+<a href="https://github.com/svetkaa-yo/PEZDispenser/tree/master/src/main/java/lv/acodemy/pez"> Click here to open </a>
 
 ### This application have two classes: 
 PEZDispenser.java - fields descpription, methods
