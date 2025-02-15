@@ -10,6 +10,7 @@ A PEZ dispenser is a small, colorful toy that dispenses PEZ candy in a fun and i
 
 ### This application have two classes: 
 PEZDispenser.java - fields descpription, methods
+
 MainApp.java - application entry point
 
 ### About this PEZ Dispenser 📝
